@@ -23,6 +23,7 @@ class firstViewController: UIViewController {
             return
         }
         
+        
         if let check2 = thirdVC.results {
             firstScoreLabel.text = "Last score: \(check2)"
         }
